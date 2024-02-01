@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\source.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\source.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/source.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/source.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/GameEngineByGL.dir/includes_C.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\glad.c.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\glad.c",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/glad.c",
+  "output": "CMakeFiles/GameEngineByGL.dir/glad.c.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\GLAD.dir\\glad.c.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\glad.c",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/glad.c",
+  "output": "CMakeFiles/GLAD.dir/glad.c.obj"
+}
+]
