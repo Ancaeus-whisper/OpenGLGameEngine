@@ -7,6 +7,36 @@
 },
 {
   "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\VertexBuffer.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\VertexBuffer.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexBuffer.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\VertexArray.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\VertexArray.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexArray.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\VertexBufferLayout.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\VertexBufferLayout.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexBufferLayout.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\IndexBuffer.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\IndexBuffer.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/IndexBuffer.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\Shader.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\Shader.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Shader.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/GameEngineByGL.dir/includes_C.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\glad.c.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\glad.c",
   "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/glad.c",
   "output": "CMakeFiles/GameEngineByGL.dir/glad.c.obj"

@@ -82,12 +82,12 @@ clean: CMakeFiles/GLAD.dir/clean
 CMakeFiles/GameEngineByGL.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=3,4,5 "Built target GameEngineByGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target GameEngineByGL"
 .PHONY : CMakeFiles/GameEngineByGL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameEngineByGL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GameEngineByGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles 0
 .PHONY : CMakeFiles/GameEngineByGL.dir/rule

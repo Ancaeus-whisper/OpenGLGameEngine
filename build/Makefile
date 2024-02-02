@@ -141,6 +141,126 @@ GLAD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
 .PHONY : GLAD/fast
 
+IndexBuffer.obj: IndexBuffer.cpp.obj
+.PHONY : IndexBuffer.obj
+
+# target to build an object file
+IndexBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj
+.PHONY : IndexBuffer.cpp.obj
+
+IndexBuffer.i: IndexBuffer.cpp.i
+.PHONY : IndexBuffer.i
+
+# target to preprocess a source file
+IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.i
+.PHONY : IndexBuffer.cpp.i
+
+IndexBuffer.s: IndexBuffer.cpp.s
+.PHONY : IndexBuffer.s
+
+# target to generate assembly for a file
+IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.s
+.PHONY : IndexBuffer.cpp.s
+
+Shader.obj: Shader.cpp.obj
+.PHONY : Shader.obj
+
+# target to build an object file
+Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj
+.PHONY : Shader.cpp.obj
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
+VertexArray.obj: VertexArray.cpp.obj
+.PHONY : VertexArray.obj
+
+# target to build an object file
+VertexArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj
+.PHONY : VertexArray.cpp.obj
+
+VertexArray.i: VertexArray.cpp.i
+.PHONY : VertexArray.i
+
+# target to preprocess a source file
+VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.i
+.PHONY : VertexArray.cpp.i
+
+VertexArray.s: VertexArray.cpp.s
+.PHONY : VertexArray.s
+
+# target to generate assembly for a file
+VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.s
+.PHONY : VertexArray.cpp.s
+
+VertexBuffer.obj: VertexBuffer.cpp.obj
+.PHONY : VertexBuffer.obj
+
+# target to build an object file
+VertexBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj
+.PHONY : VertexBuffer.cpp.obj
+
+VertexBuffer.i: VertexBuffer.cpp.i
+.PHONY : VertexBuffer.i
+
+# target to preprocess a source file
+VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.i
+.PHONY : VertexBuffer.cpp.i
+
+VertexBuffer.s: VertexBuffer.cpp.s
+.PHONY : VertexBuffer.s
+
+# target to generate assembly for a file
+VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.s
+.PHONY : VertexBuffer.cpp.s
+
+VertexBufferLayout.obj: VertexBufferLayout.cpp.obj
+.PHONY : VertexBufferLayout.obj
+
+# target to build an object file
+VertexBufferLayout.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj
+.PHONY : VertexBufferLayout.cpp.obj
+
+VertexBufferLayout.i: VertexBufferLayout.cpp.i
+.PHONY : VertexBufferLayout.i
+
+# target to preprocess a source file
+VertexBufferLayout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.i
+.PHONY : VertexBufferLayout.cpp.i
+
+VertexBufferLayout.s: VertexBufferLayout.cpp.s
+.PHONY : VertexBufferLayout.s
+
+# target to generate assembly for a file
+VertexBufferLayout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.s
+.PHONY : VertexBufferLayout.cpp.s
+
 glad.obj: glad.c.obj
 .PHONY : glad.obj
 
@@ -202,6 +322,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... GLAD
 	@echo ... GameEngineByGL
+	@echo ... IndexBuffer.obj
+	@echo ... IndexBuffer.i
+	@echo ... IndexBuffer.s
+	@echo ... Shader.obj
+	@echo ... Shader.i
+	@echo ... Shader.s
+	@echo ... VertexArray.obj
+	@echo ... VertexArray.i
+	@echo ... VertexArray.s
+	@echo ... VertexBuffer.obj
+	@echo ... VertexBuffer.i
+	@echo ... VertexBuffer.s
+	@echo ... VertexBufferLayout.obj
+	@echo ... VertexBufferLayout.i
+	@echo ... VertexBufferLayout.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s

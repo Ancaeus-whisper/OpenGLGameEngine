@@ -5,6 +5,11 @@ project(GameEngineByGL)
 
 set(SOURCES
 source.cpp
+VertexBuffer.cpp
+VertexArray.cpp
+VertexBufferLayout.cpp
+IndexBuffer.cpp
+Shader.cpp
 glad.c
 # 添加其他源文件
 )

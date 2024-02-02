@@ -83,11 +83,86 @@ CMakeFiles/GameEngineByGL.dir/source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/source.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\source.cpp -o CMakeFiles\GameEngineByGL.dir\source.cpp.s
 
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/flags.make
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexBuffer.cpp
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj -MF CMakeFiles\GameEngineByGL.dir\VertexBuffer.cpp.obj.d -o CMakeFiles\GameEngineByGL.dir\VertexBuffer.cpp.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBuffer.cpp
+
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBuffer.cpp > CMakeFiles\GameEngineByGL.dir\VertexBuffer.cpp.i
+
+CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBuffer.cpp -o CMakeFiles\GameEngineByGL.dir\VertexBuffer.cpp.s
+
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj: CMakeFiles/GameEngineByGL.dir/flags.make
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj: CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexArray.cpp
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj -MF CMakeFiles\GameEngineByGL.dir\VertexArray.cpp.obj.d -o CMakeFiles\GameEngineByGL.dir\VertexArray.cpp.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexArray.cpp
+
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexArray.cpp > CMakeFiles\GameEngineByGL.dir\VertexArray.cpp.i
+
+CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexArray.cpp -o CMakeFiles\GameEngineByGL.dir\VertexArray.cpp.s
+
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj: CMakeFiles/GameEngineByGL.dir/flags.make
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj: CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/VertexBufferLayout.cpp
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj -MF CMakeFiles\GameEngineByGL.dir\VertexBufferLayout.cpp.obj.d -o CMakeFiles\GameEngineByGL.dir\VertexBufferLayout.cpp.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBufferLayout.cpp
+
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBufferLayout.cpp > CMakeFiles\GameEngineByGL.dir\VertexBufferLayout.cpp.i
+
+CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\VertexBufferLayout.cpp -o CMakeFiles\GameEngineByGL.dir\VertexBufferLayout.cpp.s
+
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/flags.make
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/IndexBuffer.cpp
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj -MF CMakeFiles\GameEngineByGL.dir\IndexBuffer.cpp.obj.d -o CMakeFiles\GameEngineByGL.dir\IndexBuffer.cpp.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\IndexBuffer.cpp
+
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CodeRepository\ComputerGraph\OpenGLGameEngine\IndexBuffer.cpp > CMakeFiles\GameEngineByGL.dir\IndexBuffer.cpp.i
+
+CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\IndexBuffer.cpp -o CMakeFiles\GameEngineByGL.dir\IndexBuffer.cpp.s
+
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj: CMakeFiles/GameEngineByGL.dir/flags.make
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj: CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Shader.cpp
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj -MF CMakeFiles\GameEngineByGL.dir\Shader.cpp.obj.d -o CMakeFiles\GameEngineByGL.dir\Shader.cpp.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\Shader.cpp
+
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineByGL.dir/Shader.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CodeRepository\ComputerGraph\OpenGLGameEngine\Shader.cpp > CMakeFiles\GameEngineByGL.dir\Shader.cpp.i
+
+CMakeFiles/GameEngineByGL.dir/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineByGL.dir/Shader.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CodeRepository\ComputerGraph\OpenGLGameEngine\Shader.cpp -o CMakeFiles\GameEngineByGL.dir\Shader.cpp.s
+
 CMakeFiles/GameEngineByGL.dir/glad.c.obj: CMakeFiles/GameEngineByGL.dir/flags.make
 CMakeFiles/GameEngineByGL.dir/glad.c.obj: CMakeFiles/GameEngineByGL.dir/includes_C.rsp
 CMakeFiles/GameEngineByGL.dir/glad.c.obj: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/glad.c
 CMakeFiles/GameEngineByGL.dir/glad.c.obj: CMakeFiles/GameEngineByGL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/GameEngineByGL.dir/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/GameEngineByGL.dir/glad.c.obj"
 	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngineByGL.dir/glad.c.obj -MF CMakeFiles\GameEngineByGL.dir\glad.c.obj.d -o CMakeFiles\GameEngineByGL.dir\glad.c.obj -c F:\CodeRepository\ComputerGraph\OpenGLGameEngine\glad.c
 
 CMakeFiles/GameEngineByGL.dir/glad.c.i: cmake_force
@@ -101,19 +176,29 @@ CMakeFiles/GameEngineByGL.dir/glad.c.s: cmake_force
 # Object files for target GameEngineByGL
 GameEngineByGL_OBJECTS = \
 "CMakeFiles/GameEngineByGL.dir/source.cpp.obj" \
+"CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj" \
+"CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj" \
+"CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj" \
+"CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj" \
 "CMakeFiles/GameEngineByGL.dir/glad.c.obj"
 
 # External object files for target GameEngineByGL
 GameEngineByGL_EXTERNAL_OBJECTS =
 
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/source.cpp.obj
+GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/VertexBuffer.cpp.obj
+GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/VertexArray.cpp.obj
+GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/VertexBufferLayout.cpp.obj
+GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.obj
+GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/Shader.cpp.obj
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/glad.c.obj
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/build.make
 GameEngineByGL.exe: F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Dependencies/lib/libglfw3.a
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/linkLibs.rsp
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/objects1.rsp
 GameEngineByGL.exe: CMakeFiles/GameEngineByGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GameEngineByGL.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\CodeRepository\ComputerGraph\OpenGLGameEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable GameEngineByGL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GameEngineByGL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
