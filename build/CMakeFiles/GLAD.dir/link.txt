@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc libGLAD.a CMakeFiles/GLAD.dir/glad.c.obj
-C:\msys64\ucrt64\bin\ranlib.exe libGLAD.a
