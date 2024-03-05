@@ -43,6 +43,24 @@
 },
 {
   "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\Texture.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\Texture.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Texture.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/Texture.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\Renderer.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\Renderer.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Renderer.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/Renderer.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GameEngineByGL.dir/includes_CXX.rsp -g -o CMakeFiles\\GameEngineByGL.dir\\Dependencies\\include\\stb_image\\stb_image.cpp.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\Dependencies\\include\\stb_image\\stb_image.cpp",
+  "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/Dependencies/include/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/GameEngineByGL.dir/Dependencies/include/stb_image/stb_image.cpp.obj"
+},
+{
+  "directory": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/build",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\GLAD.dir\\glad.c.obj -c F:\\CodeRepository\\ComputerGraph\\OpenGLGameEngine\\glad.c",
   "file": "F:/CodeRepository/ComputerGraph/OpenGLGameEngine/glad.c",
   "output": "CMakeFiles/GLAD.dir/glad.c.obj"

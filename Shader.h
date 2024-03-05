@@ -1,6 +1,5 @@
-#include <glad/glad.h>
+#include "Renderer.h"
 
-#include <iostream>
 #include <sstream>
 #include <fstream>
 #include <string>
@@ -31,4 +30,14 @@ class Shader
 
         ShaderSource ShaderParse(const std::string& filePath);
 
+        #pragma region 设置uniform
+        void SetUniform1i(const std::string name,int value);
+        void SetUniform1f(const std::string name,float value);
+        void SetUniform2f(const std::string name,float v1,float v2);
+        void SetUniform3f(const std::string name,float v1,float v2,float v3);
+        void SetUniform4f(const std::string name,float v1,float v2,float v3,float v4);
+
+        #pragma endregion
+
+        int GetUniformLocation(const std::string& name);
 };

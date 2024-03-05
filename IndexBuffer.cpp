@@ -14,10 +14,10 @@ IndexBuffer::~IndexBuffer()
 
 void IndexBuffer::Bind()
 {
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,m_RendererID);
+    GLCALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,m_RendererID));
 }
 
 void IndexBuffer::UnBind()
 {
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,0);
+    GLCALL(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,0));
 }

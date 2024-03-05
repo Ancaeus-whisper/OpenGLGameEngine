@@ -13,12 +13,12 @@ Shader::~Shader()
 
 void Shader::Bind()
 {
-    glUseProgram(m_RendererID);
+    GLCALL(glUseProgram(m_RendererID));
 }
 
 void Shader::UnBind()
 {
-    glUseProgram(0);
+    GLCALL(glUseProgram(0));
 }
 
 unsigned int Shader::CompileShader(unsigned int type, const std::string &source) const
@@ -94,4 +94,38 @@ ShaderSource Shader::ShaderParse(const std::string& filePath)
         }
     }
     return {ss[0].str(),ss[1].str()};
+}
+
+void Shader::SetUniform1i(const std::string name, int value)
+{
+    glUniform1i(GetUniformLocation(name),value);
+}
+
+void Shader::SetUniform1f(const std::string name, float value)
+{
+    glUniform1f(GetUniformLocation(name),value);
+}
+
+void Shader::SetUniform2f(const std::string name, float v1, float v2)
+{
+    glUniform2f(GetUniformLocation(name),v1,v2);
+}
+
+void Shader::SetUniform3f(const std::string name, float v1, float v2, float v3)
+{
+    glUniform3f(GetUniformLocation(name),v1,v2,v3);
+}
+
+void Shader::SetUniform4f(const std::string name, float v1, float v2, float v3, float v4)
+{
+    glUniform4f(GetUniformLocation(name),v1,v2,v3,v4);
+}
+
+int Shader::GetUniformLocation(const std::string &name)
+{
+    if(m_Locations.find(name)!=m_Locations.end()) return m_Locations[name];
+    int location=glGetUniformLocation(m_RendererID,name.c_str());
+    if(location==-1) std::cout<<"[WARNING]The location"<<location<<"is not exist!"<<std::endl;
+    else m_Locations[name]=location;
+    return location;
 }

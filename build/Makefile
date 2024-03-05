@@ -141,6 +141,30 @@ GLAD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
 .PHONY : GLAD/fast
 
+Dependencies/include/stb_image/stb_image.obj: Dependencies/include/stb_image/stb_image.cpp.obj
+.PHONY : Dependencies/include/stb_image/stb_image.obj
+
+# target to build an object file
+Dependencies/include/stb_image/stb_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Dependencies/include/stb_image/stb_image.cpp.obj
+.PHONY : Dependencies/include/stb_image/stb_image.cpp.obj
+
+Dependencies/include/stb_image/stb_image.i: Dependencies/include/stb_image/stb_image.cpp.i
+.PHONY : Dependencies/include/stb_image/stb_image.i
+
+# target to preprocess a source file
+Dependencies/include/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Dependencies/include/stb_image/stb_image.cpp.i
+.PHONY : Dependencies/include/stb_image/stb_image.cpp.i
+
+Dependencies/include/stb_image/stb_image.s: Dependencies/include/stb_image/stb_image.cpp.s
+.PHONY : Dependencies/include/stb_image/stb_image.s
+
+# target to generate assembly for a file
+Dependencies/include/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Dependencies/include/stb_image/stb_image.cpp.s
+.PHONY : Dependencies/include/stb_image/stb_image.cpp.s
+
 IndexBuffer.obj: IndexBuffer.cpp.obj
 .PHONY : IndexBuffer.obj
 
@@ -165,6 +189,30 @@ IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/IndexBuffer.cpp.s
 .PHONY : IndexBuffer.cpp.s
 
+Renderer.obj: Renderer.cpp.obj
+.PHONY : Renderer.obj
+
+# target to build an object file
+Renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Renderer.cpp.obj
+.PHONY : Renderer.cpp.obj
+
+Renderer.i: Renderer.cpp.i
+.PHONY : Renderer.i
+
+# target to preprocess a source file
+Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Renderer.cpp.i
+.PHONY : Renderer.cpp.i
+
+Renderer.s: Renderer.cpp.s
+.PHONY : Renderer.s
+
+# target to generate assembly for a file
+Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Renderer.cpp.s
+.PHONY : Renderer.cpp.s
+
 Shader.obj: Shader.cpp.obj
 .PHONY : Shader.obj
 
@@ -188,6 +236,30 @@ Shader.s: Shader.cpp.s
 Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Shader.cpp.s
 .PHONY : Shader.cpp.s
+
+Texture.obj: Texture.cpp.obj
+.PHONY : Texture.obj
+
+# target to build an object file
+Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Texture.cpp.obj
+.PHONY : Texture.cpp.obj
+
+Texture.i: Texture.cpp.i
+.PHONY : Texture.i
+
+# target to preprocess a source file
+Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Texture.cpp.i
+.PHONY : Texture.cpp.i
+
+Texture.s: Texture.cpp.s
+.PHONY : Texture.s
+
+# target to generate assembly for a file
+Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GameEngineByGL.dir\build.make CMakeFiles/GameEngineByGL.dir/Texture.cpp.s
+.PHONY : Texture.cpp.s
 
 VertexArray.obj: VertexArray.cpp.obj
 .PHONY : VertexArray.obj
@@ -322,12 +394,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... GLAD
 	@echo ... GameEngineByGL
+	@echo ... Dependencies/include/stb_image/stb_image.obj
+	@echo ... Dependencies/include/stb_image/stb_image.i
+	@echo ... Dependencies/include/stb_image/stb_image.s
 	@echo ... IndexBuffer.obj
 	@echo ... IndexBuffer.i
 	@echo ... IndexBuffer.s
+	@echo ... Renderer.obj
+	@echo ... Renderer.i
+	@echo ... Renderer.s
 	@echo ... Shader.obj
 	@echo ... Shader.i
 	@echo ... Shader.s
+	@echo ... Texture.obj
+	@echo ... Texture.i
+	@echo ... Texture.s
 	@echo ... VertexArray.obj
 	@echo ... VertexArray.i
 	@echo ... VertexArray.s

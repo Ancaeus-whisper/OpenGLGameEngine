@@ -11,6 +11,9 @@ VertexBufferLayout.cpp
 IndexBuffer.cpp
 Shader.cpp
 glad.c
+Texture.cpp
+Renderer.cpp
+./Dependencies/include/stb_image/stb_image.cpp
 # 添加其他源文件
 )
 add_executable(GameEngineByGL ${SOURCES})
