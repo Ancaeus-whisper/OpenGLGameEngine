@@ -1,5 +1,6 @@
-#include "Renderer.h"
+#include "DependencyManager.h"
 
+#include <iostream>
 #include <sstream>
 #include <fstream>
 #include <string>
@@ -22,8 +23,8 @@ class Shader
         Shader(std::string filePath);
         ~Shader();
 
-        void Bind();
-        void UnBind();
+        void Bind()const;
+        void UnBind()const;
 
         unsigned int CompileShader(unsigned int type,const std::string& source)const;
         int CreateShader(const std::string& vertexShader,const std::string& fragmentShader)const;

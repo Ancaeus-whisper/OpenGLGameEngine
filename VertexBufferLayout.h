@@ -1,7 +1,5 @@
 #pragma once
-#include <glad/glad.h>
-#include "Renderer.h"
-
+#include "DependencyManager.h"
 #include<vector>
 
 struct VertexBufferElement

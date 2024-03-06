@@ -13,8 +13,22 @@ Shader.cpp
 glad.c
 Texture.cpp
 Renderer.cpp
+DependencyManagerImpl.cpp
+#imgui
+./Dependencies/include/imgui/imgui_impl_glfw.cpp
+./Dependencies/include/imgui/imgui_impl_opengl3.cpp
+./Dependencies/include/imgui/imgui.cpp
+./Dependencies/include/imgui/imgui_demo.cpp
+./Dependencies/include/imgui/imgui_draw.cpp
+./Dependencies/include/imgui/imgui_tables.cpp
+./Dependencies/include/imgui/imgui_widgets.cpp
+#stb
 ./Dependencies/include/stb_image/stb_image.cpp
-# 添加其他源文件
+#test
+./Test/Test.cpp
+./Test/TestClearColor.cpp
+./Test/TestTexture2D.cpp
+./Test/TestTexture3D.cpp
 )
 add_executable(GameEngineByGL ${SOURCES})
 

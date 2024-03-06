@@ -1,5 +1,5 @@
 #pragma once
-#include <glad/glad.h>
+#include "DependencyManager.h"
 
 class VertexBuffer{
     private:
@@ -10,5 +10,5 @@ class VertexBuffer{
         ~VertexBuffer();
 
         void Bind()const;
-        void UnBind();
+        void UnBind()const;
 };

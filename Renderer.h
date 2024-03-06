@@ -1,17 +1,17 @@
 #pragma once
-#include <glad/glad.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <stb_image/stb_image.h>
+
+#include "DependencyManager.h"
+#include "VertexArray.h"
+#include "IndexBuffer.h"
+#include "Shader.h"
 
 #include <string>
 #include <iostream>
 
-#define ASSERT(x) if(!x) __debugbreak();
-#define GLCALL(x) GLClearError();\
-        x;\
-        ASSERT(GLLogCall(#x,__FILE__,__LINE__))
-
-void GLClearError();
-
-bool GLLogCall(const char* function, const char* file, int line);
+//TODO 设计渲染类
+class Renderer
+{
+public:
+         void Draw(const VertexArray& VAO,const IndexBuffer& IBO,const Shader& shader)const;
+         void Clear()const; 
+};

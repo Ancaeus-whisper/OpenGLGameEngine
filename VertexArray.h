@@ -1,6 +1,5 @@
 #pragma once
-#include <glad/glad.h>
-
+#include "DependencyManager.h"
 #include "VertexBuffer.h"
 #include "VertexBufferLayout.h"
 
@@ -15,6 +14,6 @@ class VertexArray
 
         void AddBuffer(const VertexBuffer& VBO,const VertexBufferLayout& Layout);
 
-        void Bind();
-        void UnBind();
+        void Bind()const;
+        void UnBind()const;
 };

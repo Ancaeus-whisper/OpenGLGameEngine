@@ -1,5 +1,5 @@
 #pragma once
-#include "Renderer.h"
+#include "DependencyManager.h"
 
 class IndexBuffer
 {
@@ -11,8 +11,8 @@ class IndexBuffer
         IndexBuffer(const unsigned int* indice,unsigned int count);
         ~IndexBuffer();
 
-        void Bind();
-        void UnBind();
+        void Bind()const;
+        void UnBind()const;
 
         inline unsigned int GetCount()const{return m_Count;}
 };
