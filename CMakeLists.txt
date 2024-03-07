@@ -29,6 +29,10 @@ DependencyManagerImpl.cpp
 ./Test/TestClearColor.cpp
 ./Test/TestTexture2D.cpp
 ./Test/TestTexture3D.cpp
+./Test/TestCameraScene.cpp
+#Object
+./Object/Camera.cpp
+./Object/FreeCamera.cpp
 )
 add_executable(GameEngineByGL ${SOURCES})
 

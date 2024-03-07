@@ -9,6 +9,9 @@
 #include "Test/TestClearColor.h"
 #include "Test/TestTexture2D.h"
 #include "Test/TestTexture3D.h"
+#include "Test/TestCameraScene.h"
+
+#include "Singleton/InputManager.h"
 
 #include <iostream>
 #include <memory>
@@ -19,6 +22,7 @@ void errorCallback(int error, const char* description) {
 
 int main(void)
 {
+    OWL::global::InputManager *inputManager=OWL::global::InputManager::getInstance();
     #pragma region 初始化
     // 设置错误回调
     glfwSetErrorCallback(errorCallback);
@@ -85,6 +89,7 @@ int main(void)
     testMenu->RegisterTest<test::TestClearColor>("ClearColor");
     testMenu->RegisterTest<test::TestTexture2D>("Texture2D");
     testMenu->RegisterTest<test::TestTexture3D>("Texture3D");
+    testMenu->RegisterTest<test::TestCameraScene>("CameraScene");
     #pragma endregion
 
 

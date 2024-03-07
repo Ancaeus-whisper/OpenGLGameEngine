@@ -8,7 +8,6 @@
 #include <string>
 #include <iostream>
 
-//TODO 设计渲染类
 class Renderer
 {
 public:
