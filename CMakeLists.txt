@@ -30,9 +30,12 @@ DependencyManagerImpl.cpp
 ./Test/TestTexture2D.cpp
 ./Test/TestTexture3D.cpp
 ./Test/TestCameraScene.cpp
+./Test/TestFPSCameraScene.cpp
 #Object
 ./Object/Camera.cpp
 ./Object/FreeCamera.cpp
+#Singleton
+./Singleton/WindowManager.cpp
 )
 add_executable(GameEngineByGL ${SOURCES})
 

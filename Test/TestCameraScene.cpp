@@ -1,7 +1,8 @@
 #include "TestCameraScene.h"
 
 test::TestCameraScene::TestCameraScene():m_Proj(glm::perspective(glm::radians(45.0f),8/(float)6,0.1f,100.0f)),
-                                         m_View(glm::translate(glm::mat4(1.0f),glm::vec3(0.0f,0.0f,-0.3f)))
+                                         m_View(glm::translate(glm::mat4(1.0f),glm::vec3(0.0f,0.0f,-0.3f))),
+                                         target(glm::vec3(0.0))
 {
     m_MainCamera=std::make_unique<OWL::Camera>();
 
@@ -112,8 +113,12 @@ void test::TestCameraScene::OnRender()
 
         Renderer RendererPipeline;
 
+        
         m_VAO->Bind();
         {
+            //float camX = static_cast<float>(sin(glfwGetTime()) * 10.0f);
+            //float camZ = static_cast<float>(cos(glfwGetTime()) * 10.0f);
+            //m_MainCamera->SetTargetPos(glm::vec3(camX,0,camZ));
             m_View=m_MainCamera->LookAt();
             glm::mat4 Model(1.0);
             glm::mat4 MVP=m_Proj*m_View*Model;
@@ -126,13 +131,15 @@ void test::TestCameraScene::OnRender()
 
 void test::TestCameraScene::OnUpdate(float deltaTime)
 {
+    m_MainCamera->Update(deltaTime);
 }
 
 void test::TestCameraScene::OnImguiRender()
 {
     glm::mat4 lookAt=m_MainCamera->LookAt();
-    ImGui::Text("Camera LookAt\n x:%.f y:%.f z:%.f",lookAt[0][0],lookAt[1][1],lookAt[2][2]);
-    glm::vec3 position;
-    ImGui::SliderFloat3("Camera Target:",&position.x,-8.0f,8.0f);
-    m_MainCamera->SetCameraDirection(position);
+    ImGui::Text("Camera LookAt\n x:%.3f y:%.3f z:%.3f",lookAt[3][0],lookAt[3][1],lookAt[3][2]);
+
+    ImGui::SliderFloat3("Camera Target:",&target.x,-8.0f,8.0f);
+    m_MainCamera->SetTargetPos(target);
+    
 }

@@ -38,5 +38,8 @@ class Object
             m_Children.push_back(std::make_pair(name,child));
         }
         void SetParent(Object* const parent){m_parent=parent;}
+
+        //XXX 还不确定transform的值是否可以在外部修改，如有必要请修改定义
+        Transform* GetTransform(){return &m_Transform;}
 };
 }

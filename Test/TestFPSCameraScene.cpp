@@ -1,11 +1,11 @@
-#include "TestTexture3D.h"
+#include "TestFPSCameraScene.h"
 
-namespace test
+test::TestFPSCameraScene::TestFPSCameraScene():m_Proj(glm::perspective(glm::radians(45.0f),8/(float)6,0.1f,100.0f)),
+                                         m_View(glm::translate(glm::mat4(1.0f),glm::vec3(0.0f,0.0f,-0.3f)))
 {
-    TestTexture3D::TestTexture3D():m_Proj(glm::perspective(glm::radians(45.0f),8/(float)6,0.1f,100.0f)),
-                                   m_View(glm::translate(glm::mat4(1.0f),glm::vec3(0.0f,0.0f,-0.3f))),transformA(0.0f,0.0f,0.0f),transformB(2.0f,5.0f,-15.0f)
-    {
-        #pragma region 图元数据
+    m_MainCamera=std::make_unique<OWL::FreeCamera>();
+
+     #pragma region 图元数据
         const float position[] =
         {
         -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
@@ -99,42 +99,40 @@ namespace test
         m_VBO->UnBind();
         m_IBO->UnBind();
         m_Shader->UnBind();
-    }
-    TestTexture3D::~TestTexture3D()
-    {
-    }
-    void TestTexture3D::OnRender()
-    {
-        GLCALL(glClearColor(0.0f,0.0f,0.0f,1.0f));
+}
+
+test::TestFPSCameraScene::~TestFPSCameraScene()
+{
+}
+
+void test::TestFPSCameraScene::OnRender()
+{
+        GLCALL(glClearColor(0.2f,0.3f,0.4f,1.0f));
         GLCALL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT));
 
         Renderer RendererPipeline;
 
         m_VAO->Bind();
         {
-            glm::mat4 Model(glm::translate(glm::mat4(1.0),transformA));
-            glm::mat4 MVP=m_Proj*m_View*Model;
-            m_Shader->Bind();
-            m_Shader->SetUniformMat4f("u_MVP",MVP);
-            RendererPipeline.Draw(*m_VAO,*m_IBO,*m_Shader);
-        }
-        m_VAO->Bind();
-        {
-            glm::mat4 Model(glm::translate(glm::mat4(1.0),transformB));
+            m_View=m_MainCamera->LookAt();
+            glm::mat4 Model(1.0);
             glm::mat4 MVP=m_Proj*m_View*Model;
             m_Shader->Bind();
             m_Shader->SetUniformMat4f("u_MVP",MVP);
             RendererPipeline.Draw(*m_VAO,*m_IBO,*m_Shader);
         }
         m_VAO->UnBind();
-    }
-    void TestTexture3D::OnUpdate(float deltaTime)
-    {
-    }
-    void TestTexture3D::OnImguiRender()
-    {
-        ImGui::SliderFloat3("TransformA:",&transformA.x,-8.0f,8.0f);
-        ImGui::SliderFloat3("TransformB:",&transformB.x,-8.0f,8.0f);
-        ImGui::Text("Application Average %.3f FrameRate(%.f FPS)",1000.0f/ImGui::GetIO().Framerate,ImGui::GetIO().Framerate);
-    }
+}
+
+void test::TestFPSCameraScene::OnUpdate(float deltaTime)
+{
+    m_MainCamera->Update(deltaTime);
+    //std::cout<<"x:"<<m_MainCamera->LookAt()[0][0]<<"y:"<<m_MainCamera->LookAt()[1][1]<<std::endl;
+}
+
+void test::TestFPSCameraScene::OnImguiRender()
+{
+    glm::mat4 lookAt=m_MainCamera->LookAt();
+    ImGui::Text("Camera LookAt\n x:%.3f y:%.3f z:%.3f",lookAt[0][0],lookAt[1][1],lookAt[2][2]);
+    ImGui::Text("Application Average %.3f FrameRate(%.f FPS)",1000.0f/ImGui::GetIO().Framerate,ImGui::GetIO().Framerate);
 }

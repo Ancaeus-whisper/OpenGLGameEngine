@@ -1,7 +1,5 @@
 #pragma once
 #include <memory>
-#include <glad/glad.h>
-#include <glfw/glfw3.h>
 
 #include "Test.h"
 
@@ -13,16 +11,16 @@
 #include "../VertexBufferLayout.h"
 #include "../Texture.h"
 
-#include "../Object/Camera.h"
+#include "../Object/FreeCamera.h"
 
 //TODO 生成框架测试摄像机
 
 namespace test
 {
-    class TestCameraScene:public Test
+    class TestFPSCameraScene:public Test
     {
         private:
-            std::unique_ptr<OWL::Camera> m_MainCamera;
+            std::unique_ptr<OWL::FreeCamera> m_MainCamera;
 
             std::unique_ptr<VertexArray>   m_VAO;
             std::unique_ptr<VertexBuffer>  m_VBO;
@@ -33,10 +31,9 @@ namespace test
             glm::mat4                      m_Proj;
             glm::mat4                      m_View;
 
-            glm::vec3                      target;
         public:
-            TestCameraScene();
-            ~TestCameraScene();
+            TestFPSCameraScene();
+            ~TestFPSCameraScene();
 
             void OnRender();
             void OnUpdate(float deltaTime);
